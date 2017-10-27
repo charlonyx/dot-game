@@ -1,0 +1,23 @@
+.dot{
+	height:5px;
+	width:5px;
+	border-radius:50%;
+	background-color: #000;
+	padding:5px;
+	margin:20px;
+}
+.row{
+	display:inline-flex;
+}
+.grid{
+	display:grid;
+}
+.start{
+	display:inline-flex;
+	font-family: sans-serif;
+	-webkit-transition:opacity 1s;
+	transition: opacity 1s;
+}
+.start.started{
+	opacity:0;
+}
